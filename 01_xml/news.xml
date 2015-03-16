@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<news>
+	<title>Actualités</title>
+	<description>Les news du jour</description>
+	<link>Liens vers les news</link>
+	<items>
+		<item>
+			<title>A l'IESA on apprend</title>
+			<description>Les newUne semaine de programmation à l'IESA</description>
+			<link>Lire la news</link>
+		</item>
+	</items>
+</news>
+<news>
+	<title>Actualités</title>
+	<description>Les news du jour</description>
+	<link>Liens vers les news</link>
+</news>	
