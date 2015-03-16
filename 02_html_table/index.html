@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Tableau HTML IESA</title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: center;
+		}
+		table {
+			display: inline-block;
+			margin: 30px 0;
+		}
+		thead {
+			background: tomato;
+			color: #fff;
+		}
+		tfoot {
+			background: #f1f1f1;
+			color: #fff;	
+		}
+		thead td {
+			width : 20%;
+		}
+		th, td {
+			padding: 2%;
+		}
+		#desc {
+			width: 40%;
+		}
+
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th id="ref">Référence</th>
+				<th id="item">Produit</th>
+				<th id="desc">Description</th>
+				<th id="price">Prix</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td>Référence</td>
+				<td>Produit</td>
+				<td>Description</td>
+				<td>Prix</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td>56403543</td>
+				<td>Stylo magique</td>
+				<td>Le stylo à l'encre infinie et qui écrit tout seul.</td>
+				<td>14.90</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
