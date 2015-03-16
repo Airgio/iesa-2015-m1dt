@@ -4,13 +4,35 @@
 	<meta charset="utf-8">
 	<title>Geoloc HTML IESA</title>
 	<script>
-		if(navigator.geolocation){
-			alert('L\'API de geolocalisation en HTML est disponible');
-		} else {
-			alert("Votre navigateur ne prend pas en compte la géolocalisation HTML5");
-		}
+
+	function getMyPosition(myPosition) {
+		document.getElementById("localisation").innerHTML = "Lattitude : " + myPosition.coords.latitude + "<br />Longitude : " + myPosition.coords.longitude + "<br />Altitude : " + myPosition.coords.altitude;
+	}
+
+	if(navigator.geolocation){
+		//alert('L\'API de geolocalisation en HTML est disponible');
+		navigator.geolocation.getCurrentPosition(getMyPosition);
+	} else {
+		document.getElementById("localisation").innerHTML = "Votre navigateur ne prend pas en compte la géolocalisation HTML5";
+	}
+
 	</script>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: center;
+		}
+		#localisation {
+			background: tomato;
+			font-weight: bold;
+			color: #fff;
+			display: inline-block;
+			padding: 20px;
+		}
+	</style>
 </head>
 <body>
+	<h1>Ma géolocalisation</h1>
+	<p id="localisation"></p>
 </body>
 </html>
