@@ -6,7 +6,11 @@
 	<script>
 
 	function getMyPosition(myPosition) {
-		document.getElementById("localisation").innerHTML = "Lattitude : " + myPosition.coords.latitude + "<br />Longitude : " + myPosition.coords.longitude + "<br />Altitude : " + myPosition.coords.altitude;
+		var infoGeoloc = "Lattitude : " + myPosition.coords.latitude;
+		infoGeoloc += "<br />Longitude : " + myPosition.coords.longitude;
+		infoGeoloc += "<br />Altitude : " + myPosition.coords.altitude;
+		
+		document.getElementById("localisation").innerHTML = infoGeoloc;
 	}
 
 	if(navigator.geolocation){
@@ -33,6 +37,6 @@
 </head>
 <body>
 	<h1>Ma géolocalisation</h1>
-	<p id="localisation"></p>
+	<p id="localisation">Zone de présentation des informations de géolocalisation.</p>
 </body>
 </html>
