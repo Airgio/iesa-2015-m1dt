@@ -9,13 +9,23 @@
 		var infoGeoloc = "Lattitude : " + myPosition.coords.latitude;
 		infoGeoloc += "<br />Longitude : " + myPosition.coords.longitude;
 		infoGeoloc += "<br />Altitude : " + myPosition.coords.altitude;
-		
+
 		document.getElementById("localisation").innerHTML = infoGeoloc;
+	}
+
+	function displayPosition(myPosition) {
+		var infoPosition = "Lattitude : " + myPosition.coords.latitude;
+		infoPosition += "<br />Longitude : " + myPosition.coords.longitude;
+		infoPosition += "<br />Altitude : " + myPosition.coords.altitude;
+		infoPosition += "<br />Vitesse : " + myPosition.coords.speed;
+		
+		document.getElementById("localisation").innerHTML = infoPosition;
 	}
 
 	if(navigator.geolocation){
 		//alert('L\'API de geolocalisation en HTML est disponible');
-		navigator.geolocation.getCurrentPosition(getMyPosition);
+		//navigator.geolocation.getCurrentPosition(getMyPosition);
+		navigator.geolocation.watchPosition(displayPosition);
 	} else {
 		document.getElementById("localisation").innerHTML = "Votre navigateur ne prend pas en compte la géolocalisation HTML5";
 	}
@@ -26,7 +36,7 @@
 			font-family: Arial, Helvetica, sans-serif;
 			text-align: center;
 		}
-		#localisation {
+		#localisation, #localisation2 {
 			background: tomato;
 			font-weight: bold;
 			color: #fff;
@@ -36,7 +46,7 @@
 	</style>
 </head>
 <body>
-	<h1>Ma géolocalisation</h1>
+	<h2>Ma géolocalisation</h2>
 	<p id="localisation">Zone de présentation des informations de géolocalisation.</p>
 </body>
 </html>
