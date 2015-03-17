@@ -22,10 +22,26 @@
 		document.getElementById("localisation").innerHTML = infoPosition;
 	}
 
+	function showError(error) {
+		switch(error.code) {
+		    case error.PERMISSION_DENIED:
+		        alert("Vous n'avez pas autorisé la geolocalisation sur votre navigateur.");
+		        break;
+		    case error.POSITION_UNAVAILABLE:
+		        alert("Votre position n'est pas disponible.");
+		        break;
+		    case error.TIMEOUT:
+		        alert("La position n'a ^pu être déterminée.");
+		        break;
+		    default:
+		        alert("Erreur inconnnue");
+		}
+	}
+
 	if(navigator.geolocation){
 		//alert('L\'API de geolocalisation en HTML est disponible');
 		//navigator.geolocation.getCurrentPosition(getMyPosition);
-		navigator.geolocation.watchPosition(displayPosition);
+		navigator.geolocation.watchPosition(displayPosition, showError);
 	} else {
 		document.getElementById("localisation").innerHTML = "Votre navigateur ne prend pas en compte la géolocalisation HTML5";
 	}
