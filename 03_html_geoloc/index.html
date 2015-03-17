@@ -6,16 +6,6 @@
 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=set_to_true_or_false"></script>
 	<script>
 
-	// Defaut location -> Chatelet
-	var centerpos = new google.maps.LatLng(48.579400, 7.7519);
-
-	var optionsGmaps = {
-		center: centerpos,
-		mapTypeId: google.maps.MapTypeId.ROADMAP,
-		zoom: 15
-	};
-	var map = new google.maps.Map(document.getElementById("map"), optionsGmaps);
-
 	function getMyPosition(myPosition) {
 		var infoGeoloc = "Lattitude : " + myPosition.coords.latitude;
 		infoGeoloc += "<br />Longitude : " + myPosition.coords.longitude;
@@ -31,6 +21,23 @@
 		infoPosition += "<br />Vitesse : " + myPosition.coords.speed;
 		
 		document.getElementById("localisation").innerHTML = infoPosition;
+
+		var centerpos = new google.maps.LatLng(myPosition.coords.latitude, myPosition.coords.longitude);
+
+		var optionsGmaps = {
+			center: centerpos,
+			mapTypeId: google.maps.MapTypeId.ROADMAP,
+			zoom: 18
+		};	
+
+		var map = new google.maps.Map(document.getElementById("map"), optionsGmaps);
+
+		var marker = new google.maps.Marker({
+			position: centerpos,
+			map: map,
+			title: "Vous êtes ici",
+			icon: "pin.png"
+		});
 	}
 
 	function showError(error) {
