@@ -3,7 +3,18 @@
 <head>
 	<meta charset="utf-8">
 	<title>Geoloc HTML IESA</title>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=set_to_true_or_false"></script>
 	<script>
+
+	// Defaut location -> Chatelet
+	var centerpos = new google.maps.LatLng(48.579400, 7.7519);
+
+	var optionsGmaps = {
+		center: centerpos,
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		zoom: 15
+	};
+	var map = new google.maps.Map(document.getElementById("map"), optionsGmaps);
 
 	function getMyPosition(myPosition) {
 		var infoGeoloc = "Lattitude : " + myPosition.coords.latitude;
@@ -46,6 +57,7 @@
 		document.getElementById("localisation").innerHTML = "Votre navigateur ne prend pas en compte la géolocalisation HTML5";
 	}
 
+
 	</script>
 	<style>
 		body {
@@ -59,10 +71,16 @@
 			display: inline-block;
 			padding: 20px;
 		}
+		#map {
+			width: 780px;
+			height: 400px;
+			margin: 20px auto;
+		}
 	</style>
 </head>
 <body>
 	<h2>Ma géolocalisation</h2>
 	<p id="localisation">Zone de présentation des informations de géolocalisation.</p>
+	<div id="map"></div>
 </body>
 </html>
