@@ -19,17 +19,28 @@ div {
 	position: absolute;
 	top: 50px;
 	left: 100px;
+	z-index: 1;
 }
 #blue {
 	background: blue;
+	position: relative;
+	z-index: 1;
 }
 #green {
 	background: green;
+	position: relative;
+	z-index: 1;
+}
+.ad {
+	position: fixed;
+	top: 100px;
+	left: 150px;
+	z-index: 3
 }
 </style>
 </head>
 <body>
 	<div id="red"></div>
-	<div id="blue"></div>
+	<div id="blue" class="ad"></div>
 	<div id="green"></div>
 </body>
