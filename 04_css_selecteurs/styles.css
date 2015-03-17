@@ -10,13 +10,21 @@
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	border: 7px double #ccc;
+	background: url(pattern.jpg);
 }
 #content {
 	width: 800px;
 	margin: 0 auto;
 }
-#mw-navigation, #footer {
+#footer {
 	background: #f1f1f1;
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px 60px;
+}
+#mw-navigation {
+	background: rgba(0,0,0,0.3);
 	width: 800px;
 	margin: 0 auto;
 	padding: 20px 60px;
