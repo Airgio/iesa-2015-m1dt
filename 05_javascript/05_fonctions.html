@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<title>Fonctions</title>
+<style>
+</style>
+</head>
+<body>
+	<script>
+		function disBonjour(prenom){
+			console.log("Bonjour à toi " + prenom);
+		};
+		function disMerci(){
+			console.log("Merci");
+		};
+		function soisPoli(){
+			disBonjour("Machine");
+			disMerci();
+		};
+
+		disBonjour(prompt("Comment tu t'appelles ?"));
+		soisPoli();
+
+		function calcul(valeur1, valeur2){
+			return valeur1 * valeur2;
+		}
+		var total = calcul(127,26);
+		console.log(total);
+	</script>
+</body>
+<html>
