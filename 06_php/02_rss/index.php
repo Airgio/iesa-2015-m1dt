@@ -61,31 +61,41 @@ $actus = array (
 	)
 );
 
+$wantedProperties = array("title", "pubDate");
 
-
-function displayArticle($actualite){
-	echo displayActu($actualite);
+function displayArticle($actualite, $wantedProperties){
+	echo buildTable($actualite, $wantedProperties);
 }
 
-function buildTable($actualites){
+function buildTable($actualites, $wantedProperties){
 	$html = "<table>";
 	foreach ($actualites as $key => $actualite) {
-		$html .= buildRow($actualite);
+		$html .= buildRow($actualite, $wantedProperties);
 	}
 	$html .= "</table>";
 	return $html;
 }
 
-function buildRow($article){
+function buildRow($article, $wantedProperties){
 	$html = "<tr>";
-	foreach ($article as $key => $property) {
-		$html .= "<td>" . $property . "</td>";
+	foreach ($wantedProperties as $property) {
+		$html .= "<td>" . $article[$property] . "</td>";
 	}
 	$html .= "</tr>";
 	return $html;
 }
 
-displayArticle($actus);
+displayArticle($actus, $wantedProperties);
+
+/*
+function buildRow($article){
+	$html = "<tr>";
+	foreach ($article as $key => $value) {
+		$html .= "<td>" . $value . "</td>";
+	}
+	$html .= "</tr>";
+	return $html;
+}*/
 ?>
 </body>
 <html>
