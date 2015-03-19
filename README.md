@@ -14,3 +14,14 @@ http://daringfireball.net/projects/markdown/syntax
 * Git commit -m "message"
 * Git push master origin : premier push
 * Git push
+
+## PHP
+Les variables globales n'ont pas de portée dans les fonctions sans faire "global $var"
+
+Il existe 9 types en PHP
+* type scalaires
+** boolean, integer, float, string
+* Types composés
+** array, object
+* Types speciaux
+** resource, NULL
