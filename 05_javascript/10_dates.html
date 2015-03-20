@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<title></title>
+<style>
+</style>
+</head>
+<body>
+<script>
+var today = new Date();
+
+var y2k = new Date(2000,0,1);
+
+
+console.log(y2k);
+
+console.log(today);
+console.log(today.getFullYear());
+console.log(today.getHours());
+console.log(today.setMonth(today.getMonth() + 8));
+console.log(today.getMonth());
+console.log(today);
+
+console.log("C'était il y a " + (today.getFullYear() - y2k.getFullYear()) + " ans");
+
+var today2 = new Date();
+var today3 = new Date();
+today3.setHours(today3.getHours()+3);
+console.log(today2.toJSON());
+console.log(today2);
+console.log("Heure 2 =" + today3);
+
+
+</script>
+</body>
+<html>

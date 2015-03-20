@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<title></title>
+<link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.17.1.css">
+  <script src="http://code.jquery.com/qunit/qunit-1.17.1.js"></script>
+</head>
+<body>
+	<div id="qunit"></div>
+	<div id="qunit-fixture"></div>
+<script>
+	QUnit.test("Test de l'égalité",
+		function(assert){
+			assert.equal(1,2, "1 expected");
+		}
+	);
+	QUnit.test("Test de la différence",
+		function(assert){
+			assert.notEqual(1,2, "1 expected");
+		}
+	);
+</script>
+</body>
+<html>
