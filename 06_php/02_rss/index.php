@@ -61,14 +61,27 @@ $actus = array (
 	)
 );
 
+$xmlItem = "<actualites><item><title> L'avion solaire Solar Impulse 2 a décollé d'Inde pour la Birmanie </title> <link> http://liberation.fr.feedsportal.com/c/32268/f/669791/s/448eb66d/sc/37/l/0L0Sliberation0Bfr0Csciences0C20A150C0A30C190Cl0Eavion0Esolaire0Esolar0Eimpulse0E20Ea0Edecolle0Ed0Einde0Epour0Ela0Ebirmanie0I12237330Dxtor0Frss0E450A/story01.htm </link> <description> Le SI2, parti d’Abou Dhabi le 9 mars, doit parcourir au total 35 000 kilomètres à la seule énergie solaire en survolant deux océans.&lt;img width='1' height='1' src='http://liberation.fr.feedsportal.com/c/32268/f/669791/s/448eb66d/sc/37/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/1/rc.htm\" rel=\"nofollow\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/1/rc.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/2/rc.htm\" rel=\"nofollow\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/2/rc.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/3/rc.htm\" rel=\"nofollow\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/3/rc.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/a2.htm\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/a2.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;img width=\"1\" height=\"1\" src=\"http://pi.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/a2t.img\" border=\"0\"/&gt;</description><enclosure url=\"http://md1.libe.com/photo/722246-l-avion-solaire-solar-impulse-2-decolle-de-l-aeroport-de-mascate-a-oman-le-10-mars-2015-pour-ahmedab.jpg?modified_at=1426746020&amp;ratio_x=03&amp;ratio_y=02&amp;width=150\" length=\"21695\" type=\"image/jpeg\" /> <category domain=\"\"> Sciences </category> <pubDate>Thu, 19 Mar 2015 06:20:46 GMT</pubDate><guid>tag:www.liberation.fr,2015-20-19:/1223733</guid><creator>Liberation.fr</creator> </item><item><title> L'avion solaire Solar Impulse 2 a décollé d'Inde pour la Birmanie </title> <link> http://liberation.fr.feedsportal.com/c/32268/f/669791/s/448eb66d/sc/37/l/0L0Sliberation0Bfr0Csciences0C20A150C0A30C190Cl0Eavion0Esolaire0Esolar0Eimpulse0E20Ea0Edecolle0Ed0Einde0Epour0Ela0Ebirmanie0I12237330Dxtor0Frss0E450A/story01.htm </link> <description> Le SI2, parti d’Abou Dhabi le 9 mars, doit parcourir au total 35 000 kilomètres à la seule énergie solaire en survolant deux océans.&lt;img width='1' height='1' src='http://liberation.fr.feedsportal.com/c/32268/f/669791/s/448eb66d/sc/37/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/1/rc.htm\" rel=\"nofollow\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/1/rc.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/2/rc.htm\" rel=\"nofollow\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/2/rc.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/3/rc.htm\" rel=\"nofollow\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/3/rc.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/a2.htm\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/a2.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;img width=\"1\" height=\"1\" src=\"http://pi.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/a2t.img\" border=\"0\"/&gt;</description><enclosure url=\"http://md1.libe.com/photo/722246-l-avion-solaire-solar-impulse-2-decolle-de-l-aeroport-de-mascate-a-oman-le-10-mars-2015-pour-ahmedab.jpg?modified_at=1426746020&amp;ratio_x=03&amp;ratio_y=02&amp;width=150\" length=\"21695\" type=\"image/jpeg\" /> <category domain=\"\"> Sciences </category> <pubDate>Thu, 19 Mar 2015 06:20:46 GMT</pubDate><guid>tag:www.liberation.fr,2015-20-19:/1223733</guid><creator>Liberation.fr</creator> </item><item><title> L'avion solaire Solar Impulse 2 a décollé d'Inde pour la Birmanie </title> <link> http://liberation.fr.feedsportal.com/c/32268/f/669791/s/448eb66d/sc/37/l/0L0Sliberation0Bfr0Csciences0C20A150C0A30C190Cl0Eavion0Esolaire0Esolar0Eimpulse0E20Ea0Edecolle0Ed0Einde0Epour0Ela0Ebirmanie0I12237330Dxtor0Frss0E450A/story01.htm </link> <description> Le SI2, parti d’Abou Dhabi le 9 mars, doit parcourir au total 35 000 kilomètres à la seule énergie solaire en survolant deux océans.&lt;img width='1' height='1' src='http://liberation.fr.feedsportal.com/c/32268/f/669791/s/448eb66d/sc/37/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/1/rc.htm\" rel=\"nofollow\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/1/rc.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/2/rc.htm\" rel=\"nofollow\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/2/rc.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/3/rc.htm\" rel=\"nofollow\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/rc/3/rc.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/a2.htm\"&gt;&lt;img src=\"http://da.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/a2.img\" border=\"0\"/&gt;&lt;/a&gt;&lt;img width=\"1\" height=\"1\" src=\"http://pi.feedsportal.com/r/224294947124/u/192/f/669791/c/32268/s/448eb66d/sc/37/a2t.img\" border=\"0\"/&gt;</description><enclosure url=\"http://md1.libe.com/photo/722246-l-avion-solaire-solar-impulse-2-decolle-de-l-aeroport-de-mascate-a-oman-le-10-mars-2015-pour-ahmedab.jpg?modified_at=1426746020&amp;ratio_x=03&amp;ratio_y=02&amp;width=150\" length=\"21695\" type=\"image/jpeg\" /> <category domain=\"\"> Sciences </category> <pubDate>Thu, 19 Mar 2015 06:20:46 GMT</pubDate><guid>tag:www.liberation.fr,2015-20-19:/1223733</guid><creator>Liberation.fr</creator> </item></actualites>";
+
+$xml = simplexml_load_string($xmlItem);
+
+
 $wantedProperties = array("title", "pubDate");
 
-function displayArticle($actualite, $wantedProperties){
+foreach ($xml->item as $key => $item) {
+	var_dump($item);
+	/*foreach ($wantedProperties as $property) {
+		echo $item;
+	}*/
+}
+
+
+/*function displayArticle($actualite, $wantedProperties){
 	echo buildTable($actualite, $wantedProperties);
 }
 
-function buildTable($actualites, $wantedProperties){
-	$html = "<table>";
+function buildHtmlTable($actualites, $wantedProperties){
+	$html = "<table border=\"1\">";
 	foreach ($actualites as $key => $actualite) {
 		$html .= buildRow($actualite, $wantedProperties);
 	}
@@ -76,7 +89,7 @@ function buildTable($actualites, $wantedProperties){
 	return $html;
 }
 
-function buildRow($article, $wantedProperties){
+function buildHtmlRow($article, $wantedProperties){
 	$html = "<tr>";
 	foreach ($wantedProperties as $property) {
 		$html .= "<td>" . $article[$property] . "</td>";
@@ -86,7 +99,7 @@ function buildRow($article, $wantedProperties){
 }
 
 displayArticle($actus, $wantedProperties);
-
+*/
 /*
 function buildRow($article){
 	$html = "<tr>";
