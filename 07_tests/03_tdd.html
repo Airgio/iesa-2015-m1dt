@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Refresh" content="5">
+	<title></title>
+<link rel="stylesheet" href="qunit-1.17.1.css">
+  <script src="qunit-1.17.1.js"></script>
+</head>
+<body>
+	<div id="qunit"></div>
+	<div id="qunit-fixture"></div>
+<script>
+	QUnit.test("addition succeed",
+		function(assert){
+			assert.equal(add(7,8), 15, "test 7 + 8 = 15");
+		}
+	);
+	QUnit.test("addition fail",
+		function(assert){
+			assert.equal(add(95,8), 15, "test 95 + 8 = 103 != 15");
+		}
+	);
+	function add(x, y){
+		return x + y;
+	}
+</script>
+</body>
+<html>
