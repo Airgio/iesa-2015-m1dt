@@ -2,6 +2,9 @@
 
 http://daringfireball.net/projects/markdown/syntax
 
+## Test Drive Developement
+* Refactoring : modifier/optimiser son code seulement  après que son test soit vert
+
 ## JavaScript
 * Google Map : Donner une dimenssion au container de la map.
 * Déclarer la map dans la méthode
