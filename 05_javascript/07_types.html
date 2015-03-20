@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<title></title>
+<style>
+</style>
+</head>
+<body>
+<script>
+	/*var foo = "200";
+	var bar = foo * 300;
+	console.log(bar);*/
+
+	var foo = "55.6";
+	var myNumber = Number(foo);
+
+	if (! isNaN(myNumber)){
+		console.log("C'est un nombre")
+	} 
+	if (isNaN(myNumber)){
+		console.log("C'est un fromage")
+	} 
+
+	var x = 200.6;
+	var n = Math.round(x);
+	var m = Math.floor(x);
+
+	var a=200, b=1000, c=4, d=33;
+	var biggest = Math.max(a,b,c,d);
+	var smallest = Math.min(a,b,c);
+
+	console.log("round :" + n + " floor :" + m + " biggest :" + biggest + " smallest : " + smallest);
+</script>
+</body>
+<html>
