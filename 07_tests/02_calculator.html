@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<title></title>
+<link rel="stylesheet" href="qunit-1.17.1.css">
+  <script src="qunit-1.17.1.js"></script>
+</head>
+<body>
+	<div id="qunit"></div>
+	<div id="qunit-fixture"></div>
+<script>
+	QUnit.test("addition succeed",
+		function(assert){
+			assert.equal(add(7,8), 15, "test 7 + 8 = 15");
+		}
+	);
+	QUnit.test("division fail",
+		function(assert){
+			assert.equal(divide(45,7), 15, "test 45/7 != 15");
+		}
+	);
+	QUnit.test("multiplication fail",
+		function(assert){
+			assert.equal(multiply(5,2), 15, "test 5 * 2 != 15");
+		}
+	);
+	QUnit.test("soustraction succeed",
+		function(assert){
+			assert.equal(minus(156,141), 15, "test 156 - 141 = 15");
+		}
+	);
+
+	function divide(valeur1, valeur2){
+		return valeur1 / valeur2;
+	}
+	function multiply(valeur1, valeur2){
+		return valeur1 * valeur2;
+	}
+	function add(valeur1, valeur2){
+		return valeur1 + valeur2;
+	}
+	function minus(valeur1, valeur2){
+		return valeur1 - valeur2;
+	}
+
+</script>
+</body>
+<html>
