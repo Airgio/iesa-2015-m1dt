@@ -15,6 +15,12 @@
 <label for="nom">Nom : </label><input type="text" name="nom" id="nom" />
 <label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom" />
 <input type="submit" value="Valider">
+<?php
+
+	if($_GET){
+		echo "<p>" . $_GET["nom"] . "<br>" . $_GET["prenom"] . "</p>";
+	}
+?>
 </form>
 </body>
 <html>
